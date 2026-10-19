@@ -12,6 +12,9 @@ body {
 }
 
 .hw {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .hwTitle {
