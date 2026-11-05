@@ -1,19 +1,38 @@
 .item {
 }
 
+.item td {
+  padding: 12px 24px;
+}
+
 .item:last-of-type {
+
 }
 
 .users {
+  width: 50%;
 }
 
 .buttonsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 18px;
 }
 
 .container {
+  max-width: 800px;
+  width: 100%;
 }
 
 .thead {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.thead td {
+  padding: 12px 24px;
 }
 
 .nameCol {
